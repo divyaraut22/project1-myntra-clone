@@ -1,0 +1,199 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=PT+Serif:ital@1&family=Roboto+Condensed&family=Roboto:wght@100&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      background-color: white;
+      color: black;
+      padding: 36px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      font-family: 'Alkatra', cursive;
+      font-family: 'PT Serif', serif;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  nav {
+      display: flex;
+      justify-content: flex-start;
+      height: 13px;
+  }
+
+  nav ul {
+      display: flex;
+      font-weight: 500;
+
+  }
+
+  nav ul li {
+      list-style: none;
+      padding: 0 16px;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+  }
+  nav ul li a sup{
+    color: rgb(13, 9, 11);
+  }
+
+  nav ul li a:hover {
+      font-weight: bolder;
+      color: rgb(250, 7, 137);
+  }
+
+  .logo {
+      display: flex;
+      align-items: center;
+      padding: 14px 14px;
+  }
+
+  .search {
+      display: flex;
+      align-items: center;
+      margin: 0px 65px;
+
+  }
+
+  .search input {
+    background-color:rgba(221, 208, 208, 0.24);
+      height: 35px;
+      width: 414px;
+      border-radius: 3px;
+      padding: 0 52px;
+  }
+  .search input:hover{
+    background-color: white;
+  }
+
+  .searchlogo img {
+      height: 16px;
+      width: 18px;
+      position: absolute;
+      left: 753px;
+  }
+
+  .container {
+      height: 208vh;
+  }
+
+  footer {
+      background-color:white;
+      color:grey;
+      height: 30vh;
+      font-family: 'Alkatra', cursive;
+      font-family: 'PT Serif', serif;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .items nav ul li a {
+      list-style: none;
+  }
+
+  .items {
+      margin: -6px 22px;
+      font-weight: 100;
+      
+  }
+
+  .icon1 {
+      position: absolute;
+      left: 1287px;
+      top: 10px;
+  }
+
+  .icon2 {
+      position: absolute;
+      top: 18px;
+      right: 133px;
+  }
+
+  .icon3 {
+      position: absolute;
+      top: 13px;
+      right: 64px;
+  }
+  .slider{
+    margin: auto;
+width: 90vw;
+  }
+  .card{
+    background-color: white;
+    margin: auto 94px;
+max-width: 94vw;
+  }
+  .card h1{
+    justify-content: center;
+display: flex;
+margin: 30px;
+font-size: 39px;
+color: rgb(202, 11, 127);
+font-weight: 600;
+  }
+  .card1{
+    margin: 4px 1px;
+    display:flex;
+  }
+  .cards{
+    display:flex;
+    flex-direction: row;
+    /* margin:0px 22px; */
+  }
+  .lines{
+    background-color: rgb(137, 2, 110);
+    color: white;
+padding: 0px 111px;
+margin:174px 7px 0 -223px;
+font-size: 19px;
+width: 0px;
+text-align: center;
+  }
+.my1{
+    margin: 0 -27px;
+font-size: 16px;
+}
+.my2{
+    margin: 0 -66px;
+    font-size: 25px;
+}
+.my3{
+    margin: 0 -42px;
+    font-size: 16px;
+}
+.img2{
+    position: absolute;
+    left: 972px;
+top: 504px;
+}
+.img1{
+    position: absolute;
+    left: 473px;
+top: 504px;
+}
+.img3{
+    position: absolute;
+    top: 864px;
+left: 528px;
+}
+.img4{
+    position: absolute;
+top: 866px;
+left: 920px;
+}
+.img5{
+    position: absolute;
+    top: 1230px;
+    left: 532px;
+}
+.img6{
+position: absolute;
+top: 1230px;
+left: 918px;
+}
